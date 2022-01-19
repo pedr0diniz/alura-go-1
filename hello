@@ -1,0 +1,27 @@
+// package main
+
+// import (
+// 	"fmt"
+// 	"reflect"
+// )
+
+// func main() {
+// 	var name string = "Pedro" // if no value is given to a string, it is initialized as ""
+// 	var version = 1.1         // if no value is given to a float, it is initialized as 0.0
+// 	var age int = 28          // if no value is given to an integer, it is initialized as 0
+// 	// go lang also supports type inference
+
+// 	fmt.Println("Hello, World!")
+// 	fmt.Println("Hello, mr.", name, "you're", age, "years old.")
+// 	fmt.Println("This program is running on version", version)
+
+// 	fmt.Println("name is a variable of type", reflect.TypeOf(name))
+// 	fmt.Println("age is a variable of type", reflect.TypeOf(age))
+// 	fmt.Println("version is a variable of type", reflect.TypeOf(version)) // if the go compiler infers a variable is float, it will always use float64 instead of float32
+
+// 	// Short variable declaration syntax can and should be use to ommit the "var" keyboard and automatically infer the variable type.
+
+// 	shortName := "Pedro"
+
+// 	fmt.Println("shortName was declared using the ':=' syntax. Its value is", shortName)
+// }
